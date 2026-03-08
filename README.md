@@ -15,9 +15,10 @@
 ### 🧠 About Me
 
 - 🎓 **MS Computer Science** @ NYU Tandon School of Engineering
-- 🔬 **IEEE Published Researcher** — Sign Language Recognition (CNN-based)
+- 📚 **Published Author** — Cambridge Scholars Publishing & IEEE Xplore
+- 🔬 **AI Research** — Medical Imaging (YOLOv5 + U-Net) @ NYU FAMS Lab
 - 💼 **Lead Software Developer** @ NYU Office of Faculty Affairs
-- 🌍 Based in **Brooklyn, NY** · Open to full-time roles
+- 🌍 Based in **Brooklyn, NY** · Open to full-time SWE / AI/ML roles
 - 🚀 Building at the intersection of **AI, Cloud & Full-Stack**
 
 ---
@@ -27,8 +28,8 @@
 **AI / ML**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 
@@ -59,8 +60,14 @@
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Namantyagi2727&show_icons=true&theme=dark&bg_color=0a0a0a&title_color=00d4ff&icon_color=00d4ff&text_color=ededed&border_color=1e1e1e&hide_border=false&count_private=true" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Namantyagi2727&layout=compact&theme=dark&bg_color=0a0a0a&title_color=00d4ff&text_color=ededed&border_color=1e1e1e&hide_border=false&langs_count=8" />
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=Namantyagi2727&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Namantyagi2727&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=Namantyagi2727&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
 
 </div>
 
@@ -71,20 +78,23 @@
 | Project | Description | Tech |
 |---|---|---|
 | [🛫 Airspace Congestion Monitor](https://github.com/Namantyagi2727/airspace-congestion-monitoring) | Real-time big data pipeline · 475K+ flight records | Spark, Kafka, Python |
-| [🔐 BlockGuard](https://github.com/Namantyagi2727/BlockGuard) | Smart contract vulnerability scanner | Solidity, Python, LLMs |
+| [🔐 BlockGuard](https://github.com/Namantyagi2727/BlockGuard) | Smart contract vulnerability scanner with LLM ranking | Solidity, Python, LLMs |
 | [🍽️ DiningBot on AWS](https://github.com/Namantyagi2727/DiningBot-on-AWS) | Serverless restaurant recommendation chatbot | AWS Lex, Lambda, DynamoDB |
-| [📸 Photo Search App](https://github.com/Namantyagi2727/Photo-Search-Project) | Responsive image search with REST API | JavaScript, HTML, CSS |
+| [📸 Photo Search & Recognition](https://github.com/Namantyagi2727/Photo-Search-Project) | AWS Rekognition face/object detection pipeline | AWS Rekognition, Lambda |
 | [📊 Student Performance Viz](https://github.com/Namantyagi2727/Student-Performance-Visualization) | EDA dashboard on student metrics | Python, Pandas, Matplotlib |
+| [✅ Todo App](https://github.com/Namantyagi2727/Todo-App) | Clean task manager with local persistence | JavaScript, HTML, CSS |
 
 ---
 
 ### 🏆 Highlights
 
-- 📄 **IEEE Published** — Sign Language Recognition via CNNs (2024)
+- 📖 **Cambridge Scholars Publishing** — Co-authored chapter on Decentralized Smart Cities (IoT, Blockchain, Metaverse) · Dec 2025
+- 📄 **IEEE Xplore** — Sign Language Recognition via CNNs · 8 Citations · 183 Views · Jan 2024
+- 🏥 **Medical AI Research** — Endoscopic laser ablation analysis (YOLOv5 + U-Net) @ NYU FAMS Lab
 - ☁️ **Cloud Certified** — AWS · Azure · GCP
 - 🔒 **Google Cybersecurity Certificate**
 - 🌍 Exchange programs @ **Birkbeck University London** & **Adelphi University NY**
-- 🏢 Previously @ **Mast-Jägermeister US**, **Ciena**, **University of Essex**
+- 🏢 Previously @ **Mast-Jägermeister US**, **Ciena**, **University of Essex**, **Ulavi Technologies (Singapore)**
 
 ---
 
