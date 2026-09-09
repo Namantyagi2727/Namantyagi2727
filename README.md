@@ -7,6 +7,7 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-namantyagi.dev-00d4ff?style=for-the-badge&logo=vercel&logoColor=white)](https://namantyagi.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-naman--tyagi--nt2727-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/naman-tyagi-nt2727)
 [![Email](https://img.shields.io/badge/Email-namantyagi2727@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:namantyagi2727@gmail.com)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?hl=en&user=JNOaY9YAAAAJ)
 
 </div>
 
@@ -14,12 +15,12 @@
 
 ### 🧠 About Me
 
-- 🎓 **MS Computer Science** @ NYU Tandon School of Engineering (graduating June 2026)
-- 📚 **Published Author** — Cambridge Scholars Publishing & IEEE Xplore
+- 🎓 **MS Computer Science** @ NYU Tandon School of Engineering (May 2026)
+- 📚 **Published Author** — Cambridge Scholars Publishing, Wiley, IEEE Xplore & Human Behavior and Emerging Technologies
 - 🔬 **AI Research** — Medical Imaging (YOLOv5 + U-Net) @ NYU FAMS Lab
-- 💼 **Software Engineer** @ NYU Office of Faculty Affairs — building a 3-component faculty ops platform (cloud records management, workflow automation, RAG-based FAQ chatbot serving 500+ faculty)
+- 💼 Previously **Software Engineer** @ NYU Office of Faculty Affairs (Jan–Aug 2026) — led a 3-component faculty ops platform (cloud records management, workflow automation, RAG-based FAQ chatbot serving 500+ faculty)
 - 🤖 Deployed an offline **RAG chatbot** (LangChain + FAISS) across 1,000+ enterprise docs @ Mast-Jägermeister
-- 🌍 Based in **Brooklyn, NY** · Open to full-time AI/ML & Agentic AI roles starting 2026
+- 🌍 Based in **Brooklyn, NY** · Open to full-time AI/ML & Agentic AI roles
 - 🚀 Building at the intersection of **LLMs, RAG & Cloud**
 
 ---
@@ -67,6 +68,8 @@
 |---|---|---|
 | [⚡ Prism](https://github.com/Namantyagi2727/prism) | Self-hosted LLM gateway — multi-provider failover, PII/prompt-injection guardrails, cost tracking, full observability | FastAPI, Postgres, Redis |
 | [📄 RAGBase](https://github.com/Namantyagi2727/ragbase) | Offline document Q&A with FAISS hybrid retrieval and a local LLM | Python, FAISS, LLMs |
+| [🧬 Immune Cell Population Analysis](https://github.com/Namantyagi2727/teiko-cell-population-analysis) | Take-home assessment (Teiko) — clinical trial immune cell analysis pipeline + dashboard | Python, Pandas, Streamlit |
+| [🎟️ ConTicx](https://github.com/Namantyagi2727/ConTicx) | Take-home assessment (Juspay) — concert ticket booking with real Hyperswitch payments | Next.js, TypeScript, Redis |
 | [🛫 Airspace Congestion Monitor](https://github.com/Namantyagi2727/airspace-congestion-monitoring) | Real-time big data pipeline · 475K+ flight records | Spark, Kafka, Python |
 | [🔐 BlockGuard](https://github.com/Namantyagi2727/BlockGuard) | Smart contract vulnerability scanner with LLM ranking | Solidity, Python, LLMs |
 | [🍽️ DiningBot on AWS](https://github.com/Namantyagi2727/DiningBot-on-AWS) | Serverless restaurant recommendation chatbot | AWS Lex, Lambda, DynamoDB |
@@ -77,6 +80,8 @@
 ### 🏆 Highlights
 
 - 📖 **Cambridge Scholars Publishing** — Co-authored chapter on Decentralized Smart Cities (IoT, Blockchain, Metaverse) · Dec 2025
+- 📘 **Wiley** — Co-authored chapter on Ethical AI-Based Decision-Making in E-Commerce (McDonald's & Deliveroo case study) · Jul 2025
+- 🧠 **Human Behavior and Emerging Technologies (Wiley/Hindawi)** — Co-developed a gamified CBT-based digital intervention; AI model reached 97.15% accuracy · Jul 2026
 - 📄 **IEEE Xplore** — Sign Language Recognition via CNNs · 8 Citations · 183 Views · Jan 2024
 - 🏥 **Medical AI Research** — Endoscopic laser ablation analysis (YOLOv5 + U-Net) @ NYU FAMS Lab
 - ☁️ **Cloud Certified** — AWS · Azure · GCP
