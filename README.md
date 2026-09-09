@@ -15,13 +15,9 @@
 
 ### 🧠 About Me
 
-- 🎓 **MS Computer Science** @ NYU Tandon School of Engineering (May 2026)
-- 📚 **Published Author** — Cambridge Scholars Publishing, Wiley, IEEE Xplore & Human Behavior and Emerging Technologies
-- 🔬 **AI Research** — Medical Imaging (YOLOv5 + U-Net) @ NYU FAMS Lab
-- 💼 Previously **Software Engineer** @ NYU Office of Faculty Affairs (Jan–Aug 2026) — led a 3-component faculty ops platform (cloud records management, workflow automation, RAG-based FAQ chatbot serving 500+ faculty)
-- 🤖 Deployed an offline **RAG chatbot** (LangChain + FAISS) across 1,000+ enterprise docs @ Mast-Jägermeister
-- 🌍 Based in **Brooklyn, NY** · Open to full-time AI/ML & Agentic AI roles
-- 🚀 Building at the intersection of **LLMs, RAG & Cloud**
+AI/ML engineer with an MS in Computer Science from NYU Tandon (May 2026) and published research across Cambridge Scholars Publishing, Wiley, IEEE Xplore, and *Human Behavior and Emerging Technologies*. I build things that go past the notebook — a RAG chatbot deployed across 1,000+ enterprise documents at Mast-Jägermeister, a faculty operations platform I led end-to-end at NYU, and [Prism](https://github.com/Namantyagi2727/prism), a self-hosted LLM gateway I run for myself in production. Currently doing medical imaging research (YOLOv5 + U-Net) at NYU's FAMS Lab.
+
+📍 Brooklyn, NY · Open to full-time AI/ML & Agentic AI roles
 
 ---
 
