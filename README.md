@@ -1,6 +1,6 @@
 ![Naman Tyagi — an ink-blue notebook cover with a routing diagram sketched across it](assets/header.svg)
 
-I build systems that sit in the unglamorous middle of AI infrastructure — gateways, retrieval pipelines, and the plumbing that keeps an LLM call reliable once it leaves a notebook. Most of what's below is code I wrote and ran myself, not a slide deck.
+I build AI infrastructure and applications, from LLM gateways and retrieval pipelines to computer-vision systems.
 
 MS in Computer Science, NYU Tandon (2026) · Brooklyn, NY
 
@@ -9,26 +9,30 @@ MS in Computer Science, NYU Tandon (2026) · Brooklyn, NY
 ## Selected builds
 
 ### [Prism](https://github.com/Namantyagi2727/prism) — LLM gateway & control plane
-A self-hosted proxy that sits between an app and whichever provider it's actually calling — Ollama, OpenAI, Anthropic — with a hand-rolled circuit breaker for automatic failover, PII/prompt-injection guardrails, and per-request cost tracking. A Locust load test caught a real bug (every request opened a fresh Redis connection, driving a 77% error rate at ~300 req/s until fixed), then pushed a simulated total-provider outage through the fallback chain at a 0.00% failure rate across 31,488 requests.
+A self-hosted proxy that routes calls to Ollama, OpenAI, or Anthropic behind one interface, with a hand-rolled circuit breaker for failover, PII/prompt-injection guardrails, and per-request cost tracking. In a Locust load test simulating a total provider outage, the fallback chain held at a 0.00% failure rate across 31,488 requests — a controlled test at hundreds of requests/second, not a production-traffic claim.
 `FastAPI · PostgreSQL/pgvector · Redis · Prometheus/Grafana/Jaeger` · [project page](https://namantyagi2727.github.io/prism/)
 
 ### [RAGBase](https://github.com/Namantyagi2727/ragbase) — offline document Q&A
-Fully local RAG over your own PDFs, spreadsheets, and scanned images — no cloud, no API key. Hybrid retrieval merges FAISS semantic search with TF-IDF keyword search and reranks with a cross-encoder; numeric questions over CSV/Excel get answered by auto-generated pandas code instead of a guess from the LLM.
+Fully local retrieval-augmented Q&A over your own PDFs, spreadsheets, and scanned images — no cloud, no API key. Combines FAISS semantic search with TF-IDF keyword search and a cross-encoder reranker, running entirely against a local Ollama model.
 `Python · LangChain · FAISS · Ollama · Streamlit`
 
 ### [ConTicx](https://github.com/Namantyagi2727/ConTicx) — concert ticketing (Juspay take-home)
-A booking flow with a real payment integration against Hyperswitch's sandbox. The server, never the client, computes the charge; inventory holds expire lazily and cancel the Hyperswitch payment intent first, so a seat can't be resold in the same window its hold happens to lapse. A spike-test script fires concurrent orders at one tier and confirms the atomic `DECRBY` never oversells.
+A ticket-booking flow with a real payment integration against Hyperswitch's sandbox. The server always computes the charge, and inventory holds are reserved atomically in Redis so concurrent purchases can't oversell a tier — checked with a concurrent-request spike test.
 `Next.js · TypeScript · Redis · Hyperswitch` · [live demo](https://conticx.vercel.app)
 
 ### [Immune Cell Population Analysis](https://github.com/Namantyagi2727/teiko-cell-population-analysis) — Teiko take-home
-A normalized SQLite pipeline over a clinical-trial dataset: per-sample cell-population frequencies, a Mann-Whitney U comparison of treatment responders vs. non-responders with Benjamini-Hochberg correction, and an effect-size check (rank-biserial r) so a low p-value doesn't get over-read. Deterministic end to end — reruns are byte-identical — backed by a 15-test regression suite.
+A statistical analysis of a clinical-trial dataset, asking whether immune-cell population frequencies predict treatment response. Runs significance testing with multiple-comparison correction and reports effect size alongside p-values, so a marginal result doesn't get oversold. Deterministic and regression-tested end to end.
 `Python · pandas · SQLite · Streamlit` · [live dashboard](https://teiko-cell-population-analysis-dashboard.streamlit.app/)
+
+### [Airspace Congestion Monitoring](https://github.com/Namantyagi2727/airspace-congestion-monitoring) — team project
+A real-time flight-congestion pipeline built with two teammates, forked from [Sanyuktatuti's original](https://github.com/Sanyuktatuti/airspace-congestion-monitoring): Kafka ingestion, Spark Structured Streaming risk scoring over sliding windows, fanned out to InfluxDB, MongoDB, and a Streamlit dashboard. The 475K+-record historical dataset used for load testing is generated, not observed — live ingestion pulls the real OpenSky API.
+`Apache Spark · Kafka · InfluxDB · MongoDB · Python`
 
 ## Current work & research
 
-Right now I'm contributing to a real-time detection pipeline over a continuous endoscopic camera feed at NYU's FAMS Lab, validating detection in a simulated renal environment — water and calcium-based model kidney stones — before any real-tissue work. Earlier this year I led the system design for a faculty-operations platform inside NYU's Office of Faculty Affairs, twelve Django apps and 306 automated tests, which stays internal to the university rather than public.
+Currently contributing to a real-time detection pipeline over a continuous endoscopic camera feed at NYU's FAMS Lab, validating detection in a simulated renal environment before any real-tissue work. Earlier in 2026 I led the system design for a faculty-operations platform inside NYU's Office of Faculty Affairs — twelve Django apps, 306 automated tests — which stays internal to the university.
 
-Alongside that, I've co-authored a handful of publications spanning IEEE, Wiley, and Cambridge Scholars Publishing, on topics from sign-language recognition to AI ethics in decision-making. The full list is on [Google Scholar](https://scholar.google.com/citations?hl=en&user=JNOaY9YAAAAJ).
+I've also co-authored publications spanning IEEE, Wiley, and Cambridge Scholars Publishing. Full list on [Google Scholar](https://scholar.google.com/citations?hl=en&user=JNOaY9YAAAAJ).
 
 ## Tools
 
@@ -38,7 +42,7 @@ Alongside that, I've co-authored a handful of publications spanning IEEE, Wiley,
 
 ## Outside the work
 
-Most resets are small: a pot of tea, an F1 session on in the background, a controller in hand, or a session at the gym before the next build starts.
+Outside work, I'm usually making tea, watching F1, gaming, or training.
 
 ---
 
