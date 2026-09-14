@@ -1,6 +1,6 @@
 ![Naman Tyagi — an ink-blue notebook cover with a routing diagram sketched across it](assets/header.svg)
 
-I build AI infrastructure and applications, from LLM gateways and retrieval pipelines to computer-vision systems.
+I'm Naman Tyagi. I build AI infrastructure and applications, from LLM gateways and retrieval pipelines to computer-vision systems.
 
 MS in Computer Science, NYU Tandon (2026) · Brooklyn, NY
 
