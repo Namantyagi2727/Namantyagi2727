@@ -1,4 +1,4 @@
-![Naman Tyagi — an ink-blue notebook cover with a routing diagram sketched across it](assets/header.svg)
+![Illustrated desktop with a laptop, system-design notebook, tea, model racing car, and game controller.](assets/desk-overhead.webp)
 
 I'm Naman Tyagi. I build AI infrastructure and applications, from LLM gateways and retrieval pipelines to computer-vision systems.
 
